@@ -1,0 +1,40 @@
+8
+
+dir
+107
+svn+fs://mariusmaximus@ror.serverinfo24.de/var/svn/witm/trunk/vendor/plugins/acts_as_tree/lib/active_record/acts
+svn+fs://mariusmaximus@ror.serverinfo24.de/var/svn/witm
+
+
+
+2007-12-21T17:14:45.611948Z
+1
+marius
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+987aa9bd-56a3-4b6e-b6ac-a37c1504f883
+
+tree.rb
+file
+
+
+
+
+2008-04-16T16:40:32.000000Z
+fe1d6d23c909c9fa7c0ff3baeb0fc7ac
+2007-12-21T17:14:45.611948Z
+1
+marius
+
