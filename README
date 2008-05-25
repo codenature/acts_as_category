@@ -1,6 +1,6 @@
 =Introduction
 
-Let me explain to you what I mean by *acts_as_category*, which is yet another acts_as plugin for Ruby on Rails ActiveRecord models.
+Let me explain to you what I mean by *acts_as_category*, which is yet another acts_as plugin for Ruby on Rails ActiveRecord models. Copyright is 2008 by www.funkensturm.de, released under the MIT/X11 license, which is free for all to do whatever you want with it.
 
 *acts_as_tree* provides functionality for trees, but lacks some things:
 - It has no descendants method or things like ancestors_ids
@@ -208,4 +208,4 @@ And you can already try it. You can change the URL to that action method like th
   <%= sortable_categories(Category, {:action => :update_positions}) %>
   <%= sortable_categories(Category, {:controller => :mycontroller, :action => :update_positions}) %>
 
-=== Copyright (c) 2008 funkensturm., released under the MIT/X11 license (i.e. free for all)
+=== Have fun.
