@@ -196,9 +196,16 @@ Then, in your view, you can call this little helper to generate a drag and drop 
 
   <%= sortable_categories Category %>
 
-Finally, in your controller (the URL)
+Finally, in your controller create an action method like this:
+
+  def update_positions
+    Category.update_positions(params)
+    render :nothing => true
+  end
+  
+And you can already try it. You can change the URL to that action method like this:
 
   <%= sortable_categories(Category, {:action => :update_positions}) %>
-
+  <%= sortable_categories(Category, {:controller => :mycontroller, :action => :update_positions}) %>
 
 === Copyright (c) 2008 funkensturm., released under the MIT/X11 license (i.e. free for all)
