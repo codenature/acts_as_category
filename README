@@ -192,13 +192,13 @@ In your layout, make sure that you have all the JavaScripts included, that will 
 
   <%= javascript_include_tag :all %>
 
-Then, in your view, you can call this little helper to generate a drag and drop list where you can re-sort the positions. Remember to provide the name of the model to use.
+Then, in your view, you can call this little helper to generate a drag and drop list where you can re-sort the positions. Remember to provide the name of the model to use:
 
   <%= sortable_categories Category %>
 
 Finally, in your controller (the URL)
 
-<%= sortable_categories(Category, {:action => :update_positions}) %>
+  <%= sortable_categories(Category, {:action => :update_positions}) %>
 
 
 === Copyright (c) 2008 funkensturm., released under the MIT/X11 license (i.e. free for all)
