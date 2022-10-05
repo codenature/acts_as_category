@@ -208,4 +208,4 @@ And you can already try it. You can change the URL to that action method like th
   <%= sortable_categories(Category, {:action => :update_positions}) %>
   <%= sortable_categories(Category, {:controller => :mycontroller, :action => :update_positions}) %>
 
-=== Have fun.
+=== Have fun and great year ahead.
